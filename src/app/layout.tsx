@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Invitación | campamento juvenil",
-  description: "Nuestra boda",
+  description: "campamento juvenil 2026",
   icons: {
     icon: [
       { url: "/favicon.ico" },
