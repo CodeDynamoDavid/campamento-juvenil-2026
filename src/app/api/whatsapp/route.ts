@@ -9,7 +9,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Nombre y asistencia son requeridos' }, { status: 400 });
     }
 
-    const MY_PHONE_NUMBER = "51963325164"; 
+    const MY_PHONE_NUMBER = "51999068803"; 
     
     const respuestaAsistencia = asistira === 'si' ? '✅ Sí, asistiré' : '❌ No podré asistir';
 

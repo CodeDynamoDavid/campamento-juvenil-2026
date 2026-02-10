@@ -119,7 +119,7 @@ export default function ItinerarioCampamento() {
 
           {/* IMAGEN IZQUIERDA */}
           <img
-            src="/tutorial/tutorial1.jpeg"
+            src="/tutorial/camp1.jpeg"
             alt="Campamento imagen 1"
             className="rounded-2xl w-full h-72 object-cover shadow-lg hover:scale-105 transition-transform duration-500"
           />
@@ -162,7 +162,7 @@ export default function ItinerarioCampamento() {
 
           {/* IMAGEN DERECHA */}
           <img
-            src="/tutorial/tutorial2.jpeg"
+            src="/tutorial/camp2.jpeg"
             alt="Campamento imagen 2"
             className="rounded-2xl w-full h-72 object-cover shadow-lg hover:scale-105 transition-transform duration-500"
           />

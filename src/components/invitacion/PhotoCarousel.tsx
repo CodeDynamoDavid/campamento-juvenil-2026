@@ -85,7 +85,7 @@ export default function PhotoGallery() {
           className="text-center mb-16 space-y-4 mt-24"
         >
           <h2 className={`${scriptFont.className} text-6xl md:text-7xl text-sky-800`}>
-            Nuestras Actividades
+            Recuerdos Camp 2009
           </h2>
 
           <div className="flex items-center justify-center gap-4 opacity-50">

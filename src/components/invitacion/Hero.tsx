@@ -34,7 +34,6 @@ export default function Hero() {
           priority
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-linear-to-b from-sky-950/70 via-sky-900/40 to-sky-950/90" />
       </div>
 
       {/* Decoraciones */}
