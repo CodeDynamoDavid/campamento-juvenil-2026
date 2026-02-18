@@ -6,7 +6,7 @@ import Countdown from "@/src/components/invitacion/Coutdown";
 import Itinerario from "@/src/components/invitacion/Itinerario";
 import MusicPlayer from "@/src/components/invitacion/MusicPlayer";
 import PhotoCarousel from "@/src/components/invitacion/PhotoCarousel";
-import Contact from "@/src/components/invitacion/Contact";
+
 import Footer from "@/src/components/Footer";
 
 export default function InvitacionPage() {
@@ -19,7 +19,6 @@ export default function InvitacionPage() {
       <Countdown targetDate="2026-02-26T09:00:00" />
       <Itinerario />
       <MusicPlayer />
-      <Contact />
       <Footer/>
     </main>
   );

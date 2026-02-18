@@ -61,7 +61,7 @@ export default function Footer() {
       {/* pie */}
       <div className="mt-24 opacity-30 hover:opacity-60 transition-opacity duration-700">
         <p className="text-[10px] uppercase tracking-widest text-sky-900">
-          Desarrollado por David • {currentYear}
+          Desarrollado por D/\/ID • {currentYear}
         </p>
       </div>
 

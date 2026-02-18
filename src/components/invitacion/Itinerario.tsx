@@ -43,7 +43,7 @@ const eventosDia1: Evento[] = [
 /* ================= PDF ================= */
 
 const pdfDias = [
-  { dia: "Días 2 - 4", archivo: "/pdf/TRIPTICO CAMP 2026.pdf" },
+  { dia: "Días 2 - 4", archivo: "/pdf/PROGRAMA CAMP2026.pdf" },
 ];
 
 export default function ItinerarioCampamento() {

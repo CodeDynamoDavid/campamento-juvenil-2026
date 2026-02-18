@@ -77,6 +77,24 @@ export default function PhotoGallery() {
         >
           <video src="/video2.mp4" controls className="w-full h-full object-contain" />
         </motion.div>
+        {/* FOTO DEBAJO DEL PRIMER VIDEO */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-24 mx-auto max-w-5xl"
+        >
+          <div className="relative w-full aspect-[16/10] rounded-[2.5rem] overflow-hidden shadow-[0_25px_70px_rgba(0,0,0,0.25)]">
+            <Image
+              src="/BGG.jpeg"
+              alt="Momento especial del campamento"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
