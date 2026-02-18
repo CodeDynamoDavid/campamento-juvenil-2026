@@ -34,16 +34,16 @@ const eventosDia1: Evento[] = [
   { hora: "09:30 AM", titulo: "Ubicación de habitaciones (solo dejar equipaje)", Icono: GroupsOutlinedIcon },
   { hora: "10:00 AM", titulo: "Bienvenida y Apertura del Campamento | Conformación de grupos", Icono: MenuBookOutlinedIcon },
   { hora: "12:00 PM", titulo: "Almuerzo", Icono: RestaurantOutlinedIcon },
-  { hora: "02:00 PM", titulo: "Actividades en el auditorio – Realización de banderolas y presentación", Icono: GroupsOutlinedIcon },
-  { hora: "05:30 PM", titulo: "Servicio General", Icono: MenuBookOutlinedIcon },
-  { hora: "07:30 PM", titulo: "Cena", Icono: RestaurantOutlinedIcon },
+  { hora: "01:30 PM", titulo: "Actividades en el auditorio – Realización de banderolas y presentación", Icono: GroupsOutlinedIcon },
+  { hora: "05:00 PM", titulo: "Servicio General", Icono: MenuBookOutlinedIcon },
+  { hora: "07:00 PM", titulo: "Cena", Icono: RestaurantOutlinedIcon },
   { hora: "08:30 PM", titulo: "Fogata", Icono: LocalFireDepartmentOutlinedIcon },
 ];
 
 /* ================= PDF ================= */
 
 const pdfDias = [
-  { dia: "Días 2 - 4", archivo: "/pdf/PROGRAMA CAMP2026.pdf" },
+  { dia: "Días 2 - 4", archivo: "/pdf/PROGRAMA CAMPA2026.pdf" },
 ];
 
 export default function ItinerarioCampamento() {
@@ -110,6 +110,7 @@ export default function ItinerarioCampamento() {
       {/* PDF + IMAGENES AL COSTADO */}
 
       <div className="text-center space-y-12">
+        
 
         <h3 className={`${mainFont.className} text-xl text-sky-800 font-semibold`}>
           Programas completos de todos los días
@@ -152,7 +153,7 @@ export default function ItinerarioCampamento() {
                   className="flex items-center gap-1 text-sky-600 hover:underline font-semibold"
                 >
                   <DownloadOutlinedIcon sx={{ fontSize: 16 }} />
-                  Descargar
+                  Descargar Aqui
                 </a>
 
               </div>
@@ -197,7 +198,7 @@ export default function ItinerarioCampamento() {
 
       <div className="text-center mt-24">
         <p className={`${mainFont.className} text-sky-800/60 italic`}>
-          Cuatro días de crecimiento espiritual, diversión y amistad 🙌🔥
+          Cuatro días de crecimiento espiritual y compañerismo 🙌🔥
         </p>
       </div>
 

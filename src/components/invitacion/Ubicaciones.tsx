@@ -105,11 +105,28 @@ export default function Ubicaciones() {
           data-aos="fade-up"
           data-aos-delay="300"
         >
+          
           <p
             className={`${mainFont.className} text-4xl md:text-5xl text-sky-800/60 italic`}
           >
             ¡Esperamos verte ahí!
           </p>
+          {/* VIDEO DE YOUTUBE */}
+          <div
+            className="relative w-full max-w-4xl mx-auto mt-16 mb-20 rounded-[2.5rem] overflow-hidden shadow-[0_25px_70px_rgba(0,0,0,0.25)]"
+            data-aos="zoom-in"
+          >
+            <div className="relative aspect-video">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/wcwKRCekbiw"
+                title="Video del Campamento"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

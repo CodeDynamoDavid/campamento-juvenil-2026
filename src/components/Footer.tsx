@@ -52,9 +52,11 @@ export default function Footer() {
         </div>
 
         <span
-          className={`${mainFont.className} uppercase tracking-[0.4em] text-[11px] text-sky-900/40 font-bold`}
+          className={`${mainFont.className} uppercase tracking-[0.4em] text-[11px] text-sky-900/40 font-bold text-center`}
         >
           Tabernáculo de Juliaca
+          <br />
+          La voz de restauración
         </span>
       </div>
 
